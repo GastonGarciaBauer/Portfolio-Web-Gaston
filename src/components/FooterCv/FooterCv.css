@@ -1,0 +1,37 @@
+.footer-extended-logo{
+    font-size: clamp(2rem, 5vw,3rem);
+    margin-top: 5rem;
+    width: 50%;
+}
+
+.footer-cv-container{
+    position: absolute;
+    width: 100%;
+    background-color: var(--footer-color);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    color: var(--secondary-color);
+}
+
+.footer-cv{
+    color: var(--primary-color);
+}
+
+.footer-numbers{
+    color: rgb(76, 76, 243);
+    font-size: clamp(0.8rem, 2vw,1rem);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 4rem;
+
+}
+
+.number-one{
+    color: var(--primary-color)
+
+}
+
+@media screen and (max-width:490px){
+    .footer-extended-logo{
+        padding-right: 19rem
+    }
+}
