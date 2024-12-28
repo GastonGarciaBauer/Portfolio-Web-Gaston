@@ -53,7 +53,6 @@ export const PersonalCard = ({LinkTo}) => {
                 <div className="d-flex gap-3">
                     <a target="_blank" href="https://www.linkedin.com/in/gaston-garcia-bauer/" rel="noopener noreferrer" title="Linkedin"><img className="profile-icons" src={logoLikedin}/></a>
                     <a target="_blank" href="https://github.com/GastonGarciaBauer" rel="noopener noreferrer" title="Github"><img className="profile-icons" src={logoGithub}/></a>
-                    <a target="_blank" href="https://x.com/jeydi_dev" rel="noopener noreferrer" title="X"><img className="profile-icons" src={logoX}/></a>
                 </div>
             </div>
 
