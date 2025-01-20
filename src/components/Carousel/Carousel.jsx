@@ -1,7 +1,6 @@
 
 import carousel1 from '../../assets/img/carousel-1.jpg'
 import carousel2 from '../../assets/img/carousel-2.jpg'
-import carousel3 from '../../assets/img/carousel-3.jpg'
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -27,9 +26,6 @@ const ImageSlider = () => {
       </div>
       <div>
         <img src={carousel2} alt="Second slide" className='img-carousel'/>
-      </div>
-      <div>
-        <img src={carousel3} alt="Third slide" className='img-carousel'/>
       </div>
     </Slider>
     </div>
