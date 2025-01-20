@@ -2,7 +2,6 @@
 import carousel1 from '../../assets/img/carousel-1.jpg'
 import carousel2 from '../../assets/img/carousel-2.jpg'
 import carousel3 from '../../assets/img/carousel-3.jpg'
-import carousel4 from '../../assets/img/carousel-4.jpg'
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
