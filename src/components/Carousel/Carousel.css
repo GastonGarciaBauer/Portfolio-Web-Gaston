@@ -1,8 +1,9 @@
-.img-carousel{
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
-    width: clamp(25rem,45vw,60rem);
+.img-carousel {
+    width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
+    height: clamp(15rem, 50vh, 30rem); /* Ajusta la altura en función del viewport */
+    object-fit: cover; /* Mantiene la proporción y llena el contenedor */
+    object-position: center; /* Centra el contenido de las imágenes */
+    border-radius: 8px; /* Opcional: agrega bordes redondeados */
 }
 
 .slick-next{
