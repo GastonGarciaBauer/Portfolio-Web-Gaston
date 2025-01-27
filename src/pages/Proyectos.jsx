@@ -2,25 +2,14 @@
 import { NavbarCv } from "../components/NavbarCv/NavbarCv";
 import { FooterCv } from "../components/FooterCv/FooterCv";
 import { InfoCard } from "../components/InfoCard/InfoCard";
-import qmc from '../../src/assets/img/qmc.png'
-import bonsai from '../../src/assets/img/bonsai.png'
-import antenah from '../../src/assets/img/antenah.png'
-import sw from '../../src/assets/img/sw.png'
 import logo_proton from '../../src/assets/img/Logo.jpg'
 import chess from '../../src/assets/img/chess.png'
 import proti from '../../src/assets/img/proti.jpeg'
-import frases from '../../src/assets/img/frases.png'
-import sisesabe from '../../src/assets/img/sisesabe.png'
-import rgb from '../../src/assets/img/rgb.png'
-import colors from '../../src/assets/img/colors.png'
 import todo from '../../src/assets/img/todo.png'
-import money from '../../src/assets/img/money.png'
-import ecommerce from '../../src/assets/img/ecommerce.png'
 import cculator from '../../src/assets/img/logo-cculator.png'
-import domain from '../../src/assets/img/domain.png'
 import cursophp from '../../src/assets/img/logo_php.png'
 import totalwar from '../../src/assets/img/totalwar.png'
-import odoo from '../../src/assets/img/odoo.png'
+import futbol2 from '../../src/assets/img/futbol2.png'
 import { useEffect } from "react";
 
 
@@ -42,6 +31,8 @@ export const Proyectos = () => {
                     
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://queensgambit.netlify.app'>The Queen's Gambit</a></>)} url={"HTML, CSS, JS"} urlTitle={"Página de la Serie de TV"} img={chess} description={"Proyecto integrador de la materia ~Laboratorio III~ de la Tecnicatura. Página web de la serie de Netflix 'Gambito de Dama'."} LinkTo={'https://github.com/GastonGarciaBauer/The-Queen-s-Gambit---Page'} />
 
+                    <InfoCard title={(<><a className="card-title" target="_blank" href='https://github.com/GastonGarciaBauer/Torneo-Futbol'>Torneo de Fútbol</a></>)} url={"C#"} urlTitle={"Aplicación por consola"} img={futbol2} description={"Proyecto integrador de la materia ~Programación III~ de la Tecnicatura. Aplicación por consola desarrollada en C# que simula la creación de un equipo de fútbol con sus características propias, además de la incorporación de entrenadores y jugadores para participar en un torneo."} LinkTo={'https://github.com/GastonGarciaBauer/Torneo-Futbol'} />
+
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://github.com/GastonGarciaBauer/Total_War_I'>Total War I</a></>)} url={"C#"} urlTitle={"Juego bélico"} img={totalwar} description={"Total War I es un juego bélico por consola, realizado en C#. El proyecto es un prototipo en fase Beta del juego en cuestión."} LinkTo={'https://github.com/GastonGarciaBauer/Total_War_I'} />
 
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://github.com/GastonGarciaBauer/curso-php'>Curso PHP</a></>)} url={"HTML, CSS, PHP"} urlTitle={"Fundamentos y pruebas"} img={cursophp} description={"Algunas pruebas hechas en php, siguiendo un video de un curso online."} LinkTo={'https://github.com/GastonGarciaBauer/curso-php'} />
@@ -49,12 +40,6 @@ export const Proyectos = () => {
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://github.com/GastonGarciaBauer/Calculadora-Basica-C'>C-culator</a></>)} url={"C"} urlTitle={"Calculadora básica"} img={cculator} description={"C-culator es una calculadora básica hecha en lenguaje C, que tiene como objetivo devolver por consola la operación solicitada entre dos números."} LinkTo={'https://github.com/GastonGarciaBauer/Calculadora-Basica-C'} />
 
                     <InfoCard title={(<><a className="card-title" target="_blank" href='https://webto-dolist.netlify.app/'>ToDo List</a></>)} url={"HTML, CSS, Bootstrap, Javascript"} urlTitle={"Tareas por hacer"} img={todo} description={"Todo programador debe tener en su listado de proyectos un ToDo List, y yo no iba a ser la expcepción. Con este podremos añadir tareas, marcalas como hechos y eliminarlas. De esta manera, con Javascript jugamos con los cambios de estilos."} LinkTo={'https://webto-dolist.netlify.app/'} />
-
-
-
-
-
-
 
                 </div>
             </div>
