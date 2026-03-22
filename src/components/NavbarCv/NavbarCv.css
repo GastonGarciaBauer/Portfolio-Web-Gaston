@@ -93,6 +93,22 @@
   display: none
 }
 
+.cv-download-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.cv-download-link:hover {
+  opacity: 0.85;
+}
+
+.cv-download-link .material-symbols-outlined {
+  font-size: 26px;
+}
+
 .sun-icon-cv {
   user-select: none;
   cursor: pointer;

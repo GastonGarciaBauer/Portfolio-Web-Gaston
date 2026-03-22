@@ -14,6 +14,7 @@ import LogoReact from '../../assets/img/logo-react.png'
 import logoPython from '../../assets/img/logo-python.png'
 import logoPHP from '../../assets/img/php.png'
 import logoSql from '../../assets/img/sql.png'
+import { CV_PDF_DOWNLOAD_NAME, CV_PDF_PATH } from '../../constants/cvPdf'
 
 export const PersonalCard = ({LinkTo}) => {
     return (
@@ -50,9 +51,20 @@ export const PersonalCard = ({LinkTo}) => {
             </div>
             <div className="perfiles">
                 <p className="fs-2 pb-2">Perfiles</p>
-                <div className="d-flex gap-3">
+                <div className="d-flex gap-3 align-items-center">
                     <a target="_blank" href="https://www.linkedin.com/in/gaston-garcia-bauer/" rel="noopener noreferrer" title="Linkedin"><img className="profile-icons" src={logoLikedin}/></a>
                     <a target="_blank" href="https://github.com/GastonGarciaBauer" rel="noopener noreferrer" title="Github"><img className="profile-icons" src={logoGithub}/></a>
+                    <a
+                        href={CV_PDF_PATH}
+                        download={CV_PDF_DOWNLOAD_NAME}
+                        className="profile-cv-download"
+                        title="Descargar currículum (PDF)"
+                        aria-label="Descargar currículum (PDF)"
+                    >
+                        <span className="profile-cv-download-face" aria-hidden="true">
+                            <span className="profile-cv-download-label">CV</span>
+                        </span>
+                    </a>
                 </div>
             </div>
 
