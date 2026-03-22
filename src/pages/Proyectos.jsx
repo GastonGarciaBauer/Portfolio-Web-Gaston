@@ -53,12 +53,12 @@ export const Proyectos = () => {
                         title={(<><a 
                         className="card-title" 
                         target="_blank" 
-                        href='https://twitter-followcard-2025.netlify.app'>Twitter Follow Card</a></>)} 
+                        href='https://repos-profiles.netlify.app/'>Github Profile</a></>)} 
                         url={"React, Vite, Bootstrap"} 
-                        urlTitle={"Componente de Twitter `Follow Card`"} 
+                        urlTitle={"Práctica de hooks de React"} 
                         img={X} 
-                        description={"Card con botón funcional utilizando bootstrap para los estilos."} 
-                        LinkTo={'https://twitter-followcard-2025.netlify.app'} 
+                        description={"Card con perfil de github y cantidad de repositorios públicos. Práctica de useEffect() y fetching de datos."} 
+                        LinkTo={'https://repos-profiles.netlify.app/'} 
                     />
                     
                     <InfoCard 
