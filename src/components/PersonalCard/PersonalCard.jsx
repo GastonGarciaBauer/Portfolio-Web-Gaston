@@ -41,7 +41,7 @@ export const PersonalCard = ({LinkTo}) => {
             </div>
             <div className="pb-4">
                 <p className="pt-4 pb-3 profile-description">Gastón García Bauer es un programador FullStack argentino que vive en Morón, Provincia de Buenos Aires. Hace 4 años y medio se introdujo en el mundo IT realizando distintos cursos y capacitaciones. Es apasionado de la programación, la tecnología y los deportes, le gusta viajar, jugar ajedrez y tiene como meta ser un gran programador.</p>
-                <p className="pb-2"><span className="fw-bold">Nacimiento:</span> 29 de octubre de 1989 (35 años), <a href="https://es.wikipedia.org/wiki/Belgrano_(Buenos_Aires)" target="_blank" className="text-decoration-none">Belgrano, CABA, Argentina</a></p>
+                <p className="pb-2"><span className="fw-bold">Nacimiento:</span> 29 de octubre de 1989 (36 años), <a href="https://es.wikipedia.org/wiki/Belgrano_(Buenos_Aires)" target="_blank" className="text-decoration-none">Belgrano, CABA, Argentina</a></p>
                 <p className="pb-2"><span className="fw-bold">Títulos:</span> Técnico Universitario en Programación, Desarrollador Web Full-Stack, QA Testing</p>
                 <p className="pb-2"><span className="fw-bold">Habilidades blandas:</span> Comunicación efectiva, trabajo en equipo, resolución de problemas, adaptabilidad y flexibilidad.</p>
                 <p className="pb-2"><span className="fw-bold">Idiomas:</span> Español (nativo) - Inglés (intermedio)</p>
