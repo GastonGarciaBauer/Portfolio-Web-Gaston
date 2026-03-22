@@ -6,7 +6,7 @@ import logo_proton from '../../src/assets/img/Logo.jpg'
 import chess from '../../src/assets/img/chess.png'
 import proti from '../../src/assets/img/proti.jpeg'
 import todo from '../../src/assets/img/todo.png'
-import X from '../../src/assets/img/X.png'
+import G from '../../src/assets/img/G.png'
 import cculator from '../../src/assets/img/logo-cculator.png'
 import cursophp from '../../src/assets/img/logo_php.png'
 import totalwar from '../../src/assets/img/totalwar.png'
@@ -56,7 +56,7 @@ export const Proyectos = () => {
                         href='https://repos-profiles.netlify.app/'>Github Profile</a></>)} 
                         url={"React, Vite, Bootstrap"} 
                         urlTitle={"Práctica de hooks de React"} 
-                        img={X} 
+                        img={G} 
                         description={"Card con perfil de github y cantidad de repositorios públicos. Práctica de useEffect() y fetching de datos."} 
                         LinkTo={'https://repos-profiles.netlify.app/'} 
                     />
