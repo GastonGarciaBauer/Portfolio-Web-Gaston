@@ -7,6 +7,7 @@ import chess from '../../src/assets/img/chess.png'
 import proti from '../../src/assets/img/proti.jpeg'
 import todo from '../../src/assets/img/todo.png'
 import G from '../../src/assets/img/G.png'
+import X from '../../src/assets/img/X.png'
 import cculator from '../../src/assets/img/logo-cculator.png'
 import cursophp from '../../src/assets/img/logo_php.png'
 import totalwar from '../../src/assets/img/totalwar.png'
@@ -59,6 +60,18 @@ export const Proyectos = () => {
                         img={G} 
                         description={"Card con perfil de github y cantidad de repositorios públicos. Práctica de useEffect() y fetching de datos."} 
                         LinkTo={'https://repos-profiles.netlify.app/'} 
+                    />
+
+                    <InfoCard 
+                        title={(<><a 
+                        className="card-title" 
+                        target="_blank" 
+                        href='https://twitter-followcard-2025.netlify.app/'>Twitter Follow Card</a></>)} 
+                        url={"React, Vite, Bootstrap"} 
+                        urlTitle={"Cards de usuarios de la red social 'X'."} 
+                        img={X} 
+                        description={"Párctica de useState() en React."} 
+                        LinkTo={'https://twitter-followcard-2025.netlify.app/'} 
                     />
                     
                     <InfoCard 
