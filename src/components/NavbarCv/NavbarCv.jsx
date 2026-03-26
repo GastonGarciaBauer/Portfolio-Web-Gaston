@@ -2,11 +2,13 @@ import React, { useEffect, useState } from "react"
 import { SearchBoxCv } from "../SearchBoxCv/SearchBoxCv"
 import gaston from '../../assets/img/gaston.jpeg'
 import './NavbarCv.css'
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import Swiper from "swiper"
 import { CV_PDF_DOWNLOAD_NAME, CV_PDF_PATH } from "../../constants/cvPdf"
 
 export const NavbarCv = ({claseTodo, claseProy, claseConoc, claseEdu, claseExp}) => {
+    const { pathname } = useLocation()
+    const shouldHighlightDownload = pathname === "/curriculum_vitae" || pathname === "/curriculum_vitae/"
 
     useEffect(() => {
         const swiper = new Swiper('.swiper-container', {
@@ -79,7 +81,7 @@ export const NavbarCv = ({claseTodo, claseProy, claseConoc, claseEdu, claseExp})
                     <a
                         href={CV_PDF_PATH}
                         download={CV_PDF_DOWNLOAD_NAME}
-                        className="cv-download-link"
+                        className={`cv-download-link ${shouldHighlightDownload ? "cv-download-link--highlight" : ""}`}
                         title="Descargar currículum (PDF)"
                     >
                         <span className="material-symbols-outlined">download</span>
