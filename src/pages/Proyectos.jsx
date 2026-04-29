@@ -5,6 +5,7 @@ import { InfoCard } from "../components/InfoCard/InfoCard";
 import logo_proton from '../../src/assets/img/Logo.jpg'
 import chess from '../../src/assets/img/chess.png'
 import proti from '../../src/assets/img/proti.jpeg'
+import gymbro from '../../src/assets/img/gymbro.png'
 import todo from '../../src/assets/img/todo.png'
 import G from '../../src/assets/img/G.png'
 import X from '../../src/assets/img/X.png'
@@ -26,6 +27,18 @@ export const Proyectos = () => {
             <NavbarCv claseProy={'titulos-cv-style-proy'} />
             <div className="container row d-flex flex-wrap justify-content-center">
                 <div className="col-12 col-sm-8">
+
+                    <InfoCard 
+                        title={(<><a 
+                        className="card-title" 
+                        target="_blank" 
+                        href='https://gym-brotherhood-app.netlify.app/'>Gym-Bro</a></>)} 
+                        url={"React, Tailwind, PHP, MySql"} 
+                        urlTitle={"Gestor de rutinas de gimnasio"} 
+                        img={gymbro} 
+                        description={"Aplicación web encargada de gestionar rutinas de gimnasio, con imágenes ilustrativas y explicaciones de los ejercicios."} 
+                        LinkTo={'https://gym-brotherhood-app.netlify.app/'} 
+                    />
 
                     <InfoCard 
                         title={(<><a 
