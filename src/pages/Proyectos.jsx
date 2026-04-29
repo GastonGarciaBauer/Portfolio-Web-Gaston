@@ -13,13 +13,18 @@ import cculator from '../../src/assets/img/logo-cculator.png'
 import cursophp from '../../src/assets/img/logo_php.png'
 import totalwar from '../../src/assets/img/totalwar.png'
 import futbol2 from '../../src/assets/img/futbol2.png'
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 
+const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+};
 
 export const Proyectos = () => {
 
-    useEffect(() => {
-        window.scrollTo(0, 0);
+    useLayoutEffect(() => {
+        scrollToTop();
     }, []);
 
     return (
