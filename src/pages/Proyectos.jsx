@@ -15,6 +15,12 @@ import totalwar from '../../src/assets/img/totalwar.png'
 import futbol2 from '../../src/assets/img/futbol2.png'
 import { useLayoutEffect } from "react";
 
+/** Demo en video de Protón Reloaded (YouTube, Vimeo, Loom, Drive público…). Ej.: https://www.youtube.com/watch?v=CODIGO o https://youtu.be/CODIGO. Si está vacío, se sigue usando el repo de GitHub. */
+const PROTON_RELOADED_VIDEO_URL = "https://drive.google.com/file/d/13dLcLRQYEV6VKwhg-seO6uovvKrzuYne/view?usp=sharing"
+const protonReloadedHref =
+    PROTON_RELOADED_VIDEO_URL.trim() ||
+    "https://github.com/GastonGarciaBauer/ProtonReloaded"
+
 const scrollToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
     document.documentElement.scrollTop = 0;
@@ -34,10 +40,7 @@ export const Proyectos = () => {
                 <div className="col-12 col-sm-8">
 
                     <InfoCard 
-                        title={(<><a 
-                        className="card-title" 
-                        target="_blank" 
-                        href='https://gym-brotherhood-app.netlify.app/'>Gym-Bro</a></>)} 
+                        title={"Gym-Bro"}
                         url={"React, Tailwind, PHP, MySql"} 
                         urlTitle={"Gestor de rutinas de gimnasio"} 
                         img={gymbro} 
@@ -46,21 +49,15 @@ export const Proyectos = () => {
                     />
 
                     <InfoCard 
-                        title={(<><a 
-                        className="card-title" 
-                        target="_blank" 
-                        href='https://github.com/GastonGarciaBauer/ProtonReloaded'>Protón Reloaded</a></>)} 
+                        title={"Protón Reloaded"}
                         url={"HTML, CSS, React, Bulma, PHP, MySql"} 
                         urlTitle={"Tienda virtual de insumos para mascotas y gestión de turnos"} 
                         img={proti} 
-                        description={"Plataforma integral de venta de insumos para mascotas y gestor de turnos para peluquería canina. Si bien es un proyecto diferente, se basó en la idea de 'Protón'. [Proyecto final de la Tecnicatura]."} LinkTo={'https://github.com/GastonGarciaBauer/ProtonReloaded'} 
+                        description={"Plataforma integral de venta de insumos para mascotas y gestor de turnos para peluquería canina. Si bien es un proyecto diferente, se basó en la idea de 'Protón'. [Proyecto final de la Tecnicatura]."} LinkTo={protonReloadedHref} 
                     />
                     
                     <InfoCard 
-                        title={(<><a 
-                        className="card-title" 
-                        target="_blank" 
-                        href='https://github.com/GastonGarciaBauer/ecommerce_mascotas'>Protón</a></>)} 
+                        title={"Protón"}
                         url={"HTML, CSS, JS, PHP. MySql"} 
                         urlTitle={"Tienda virtual de insumos para mascotas"} 
                         img={logo_proton} 
@@ -69,10 +66,7 @@ export const Proyectos = () => {
                     />
                     
                     <InfoCard 
-                        title={(<><a 
-                        className="card-title" 
-                        target="_blank" 
-                        href='https://repos-profiles.netlify.app/'>Github Profile</a></>)} 
+                        title={"Github Profile"}
                         url={"React, Vite, Bootstrap"} 
                         urlTitle={"Práctica de hooks de React"} 
                         img={G} 
@@ -81,10 +75,7 @@ export const Proyectos = () => {
                     />
 
                     <InfoCard 
-                        title={(<><a 
-                        className="card-title" 
-                        target="_blank" 
-                        href='https://twitter-followcard-2025.netlify.app/'>Twitter Follow Card</a></>)} 
+                        title={"Twitter Follow Card"}
                         url={"React, Vite, Bootstrap"} 
                         urlTitle={"Cards de usuarios de la red social 'X'."} 
                         img={X} 
@@ -93,10 +84,7 @@ export const Proyectos = () => {
                     />
                     
                     <InfoCard 
-                        title={(<><a 
-                        className="card-title" 
-                        target="_blank" 
-                        href='https://queensgambit.netlify.app'>The Queen`s Gambit</a></>)} 
+                        title={"The Queen's Gambit"}
                         url={"HTML, CSS, JS"} 
                         urlTitle={"Página de la Serie de TV"} 
                         img={chess} 
@@ -105,10 +93,7 @@ export const Proyectos = () => {
                     />
 
                     <InfoCard 
-                        title={(<><a 
-                        className="card-title" 
-                        target="_blank" 
-                        href='https://github.com/GastonGarciaBauer/Torneo-Futbol'>Torneo de Fútbol</a></>)} 
+                        title={"Torneo de Fútbol"}
                         url={"C#"} 
                         urlTitle={"Aplicación por consola"} 
                         img={futbol2} 
@@ -117,10 +102,7 @@ export const Proyectos = () => {
                     />
 
                     <InfoCard 
-                        title={(<><a 
-                        className="card-title" 
-                        target="_blank" 
-                        href='https://github.com/GastonGarciaBauer/Total_War_I'>Total War I</a></>)} 
+                        title={"Total War I"}
                         url={"C#"} 
                         urlTitle={"Juego bélico"} 
                         img={totalwar} 
@@ -129,10 +111,7 @@ export const Proyectos = () => {
                     />
 
                     <InfoCard 
-                        title={(<><a 
-                        className="card-title" 
-                        target="_blank" 
-                        href='https://github.com/GastonGarciaBauer/curso-php'>Curso PHP</a></>)} 
+                        title={"Curso PHP"}
                         url={"HTML, CSS, PHP"} 
                         urlTitle={"Fundamentos y pruebas"} 
                         img={cursophp} 
@@ -141,10 +120,7 @@ export const Proyectos = () => {
                     />
                     
                     <InfoCard 
-                        title={(<><a 
-                        className="card-title" 
-                        target="_blank" 
-                        href='https://github.com/GastonGarciaBauer/Calculadora-Basica-C'>C-culator</a></>)}
+                        title={"C-culator"}
                         url={"C"} 
                         urlTitle={"Calculadora básica"} 
                         img={cculator} 
@@ -153,10 +129,7 @@ export const Proyectos = () => {
                     />
 
                     <InfoCard 
-                        title={(<><a 
-                        className="card-title" 
-                        target="_blank" 
-                        href='https://webto-dolist.netlify.app/'>ToDo List</a></>)} 
+                        title={"ToDo List"}
                         url={"HTML, CSS, Bootstrap, Javascript"} 
                         urlTitle={"Tareas por hacer"} 
                         img={todo} 

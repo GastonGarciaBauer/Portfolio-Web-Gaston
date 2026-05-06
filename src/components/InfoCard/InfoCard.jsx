@@ -1,8 +1,26 @@
 import { Link } from "react-router-dom"
 import './InfoCard.css'
 
+const isExternalUrl = (to) => typeof to === "string" && /^https?:\/\//i.test(to)
 
 export const InfoCard = ({ title, url, urlTitle, description, img, LinkTo }) => {
+
+    const titleSlot = !LinkTo ? (
+        <span className="card-title d-inline-block">{title}</span>
+    ) : isExternalUrl(LinkTo) ? (
+        <a
+            className="card-title"
+            href={LinkTo}
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            {title}
+        </a>
+    ) : (
+        <Link className="card-title" to={LinkTo}>
+            {title}
+        </Link>
+    )
 
     return (
         <div className="mt-5 card-style container">
@@ -23,7 +41,7 @@ export const InfoCard = ({ title, url, urlTitle, description, img, LinkTo }) => 
                     </div>
                 </div>
             </div>
-            <Link className="card-title" to={LinkTo}>{title}</Link>
+            {titleSlot}
             <p className="card-description">{description}</p>
         </div>
     )
