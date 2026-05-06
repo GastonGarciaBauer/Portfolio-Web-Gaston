@@ -89,7 +89,7 @@ export const Proyectos = () => {
                         urlTitle={"Página de la Serie de TV"} 
                         img={chess} 
                         description={"Proyecto integrador de la materia ~Laboratorio III~ de la Tecnicatura. Página web de la serie de Netflix 'Gambito de Dama'."} 
-                        LinkTo={'https://github.com/GastonGarciaBauer/The-Queen-s-Gambit---Page'} 
+                        LinkTo={'https://queensgambit.netlify.app/'} 
                     />
 
                     <InfoCard 
