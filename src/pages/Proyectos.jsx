@@ -7,6 +7,7 @@ import chess from '../../src/assets/img/chess.png'
 import proti from '../../src/assets/img/proti.jpeg'
 import gymbro from '../../src/assets/img/gymbro.png'
 import todo from '../../src/assets/img/todo.png'
+import Q from '../../src/assets/img/Q.png'
 import G from '../../src/assets/img/G.png'
 import X from '../../src/assets/img/X.png'
 import cculator from '../../src/assets/img/logo-cculator.png'
@@ -57,12 +58,12 @@ export const Proyectos = () => {
                     />
                     
                     <InfoCard 
-                        title={"Protón"}
-                        url={"HTML, CSS, JS, PHP. MySql"} 
-                        urlTitle={"Tienda virtual de insumos para mascotas"} 
-                        img={logo_proton} 
-                        description={"Plataforma tipo e-commerce de venta de insumos para mascotas. Proyecto final de la materia ~ Laboratorio IV~."} 
-                        LinkTo={'https://github.com/GastonGarciaBauer/ecommerce_mascotas'} 
+                        title={"Queen's Gambit - Upgrade"}
+                        url={"HTML5, CSS3, JavaScript Vanilla"} 
+                        urlTitle={"Modernización de antiguo proyecto."} 
+                        img={Q} 
+                        description={"Landing page sobre la serie de Netflix 'Gambito de Dama'. Código optimizado y refactorizado, con interfaz moderna y paleta de colores acorde."} 
+                        LinkTo={'https://queens-gambit-upgrade.netlify.app/'} 
                     />
                     
                     <InfoCard 
@@ -90,6 +91,15 @@ export const Proyectos = () => {
                         img={chess} 
                         description={"Proyecto integrador de la materia ~Laboratorio III~ de la Tecnicatura. Página web de la serie de Netflix 'Gambito de Dama'."} 
                         LinkTo={'https://queensgambit.netlify.app/'} 
+                    />
+
+                    <InfoCard 
+                        title={"Protón"}
+                        url={"HTML, CSS, JS, PHP. MySql"} 
+                        urlTitle={"Tienda virtual de insumos para mascotas"} 
+                        img={logo_proton} 
+                        description={"Plataforma tipo e-commerce de venta de insumos para mascotas. Proyecto final de la materia ~ Laboratorio IV~."} 
+                        LinkTo={'https://github.com/GastonGarciaBauer/ecommerce_mascotas'} 
                     />
 
                     <InfoCard 
